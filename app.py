@@ -53,7 +53,6 @@ def visualize_bar_data(tickers, data, title):
         ax.text(bar.get_x() + bar.get_width()/2., height,
                 f'{height:.2f}', ha='center', va='bottom')
     
-    plt.title(title)
     plt.xticks(rotation=45)
     st.pyplot(fig)
 
