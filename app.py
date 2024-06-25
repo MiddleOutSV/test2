@@ -36,7 +36,6 @@ def visualize_circle_data(tickers, data, title):
     ax.set_aspect('equal')
     ax.axis('off')
     
-    plt.title(title)
     st.pyplot(fig)
 
 def visualize_bar_data(tickers, data, title):
